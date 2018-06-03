@@ -108,7 +108,7 @@ function generateAccessCode(){
     for(var i=0; i < 6; i++){
       code += possible.charAt(Math.floor(Math.random() * possible.length));
     }
-
+    code = "uiuc"
     return code;
 }
 
